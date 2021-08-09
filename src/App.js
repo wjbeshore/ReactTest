@@ -17,7 +17,7 @@ if (n > 12) {
 export default function App() {
   return (
     <div className="App">
-      <h1>Test</h1>
+      <h1 className="heading">Test</h1>
       <h2 style={style}>The time is {time + " " + tod}</h2>
     </div>
   );
