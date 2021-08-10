@@ -1,4 +1,5 @@
 import "./styles.css";
+import Heading from "./Heading.jsx";
 let name = "Will";
 let style = {
   color: "Orange"
@@ -17,7 +18,7 @@ if (n > 12) {
 export default function App() {
   return (
     <div className="App">
-      <h1 className="heading">Test</h1>
+      <Heading />
       <h2 style={style}>The time is {time + " " + tod}</h2>
     </div>
   );
